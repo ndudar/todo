@@ -1,4 +1,4 @@
-import TaskCard from "./TaskCard";
+import TaskCard from "./TaskCard/TaskCard";
 import TaskForm from "./TaskForm";
 import TaskFilter from "./TaskFilter";
 import SearchBar from "./SearchBar";

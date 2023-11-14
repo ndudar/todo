@@ -1,9 +1,10 @@
 import { Card, Icon } from "semantic-ui-react";
+import './TaskCard.css';
 
 function TaskCard() {
   return (
-    <div>
-      <Card>
+    <div className="centered-container">
+      <Card className="task-card">
         <Card.Content>
           <Card.Header>Task Card Title</Card.Header>
           <Card.Meta>
