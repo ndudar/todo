@@ -7,11 +7,11 @@ import { Card, Container, Header } from 'semantic-ui-react';
 
 function TaskList() {
   return (
-    <div className="task-list-div">
+    <div>
       <TaskForm />
       <SearchBar />
       <TaskFilter />
-      <Container>
+      <Container className="class-list-container">
         <Header as="h2">My Tasks</Header>
         <Card.Group centered>
           <TaskCard />

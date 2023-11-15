@@ -1,6 +1,6 @@
 function TaskFilter() {
   return (
-    <div>
+    <div style={{ paddingBottom: 20}}>
       <p>this is a filter for the tasks</p>
     </div>
   );
