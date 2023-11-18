@@ -1,0 +1,12 @@
+.task-list-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task-list-main {
+  flex: 1;
+}
+
+.task-list-sidebar {
+  width: 30%; /* Adjust the width as needed */
+}

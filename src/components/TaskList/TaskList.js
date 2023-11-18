@@ -5,18 +5,24 @@ import SearchBar from "../SearchBar";
 
 import { Card, Container, Header } from 'semantic-ui-react';
 
+import './TaskList.css';
+
 function TaskList() {
   return (
-    <div>
-      <TaskForm />
+    <div className="task-list-container">
+      <div className="task-list-main">
       <SearchBar />
       <TaskFilter />
-      <Container className="class-list-container">
+      <Container>
         <Header as="h2">My Tasks</Header>
         <Card.Group centered>
           <TaskCard />
         </Card.Group>
       </Container>
+      <div className="task-list-sidebar">
+      <TaskForm />
+      </div>
+      </div>
     </div>
   );
 }
