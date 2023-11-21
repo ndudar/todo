@@ -9,4 +9,6 @@
 
 .task-list-sidebar {
   width: 30%; /* Adjust the width as needed */
+  padding-right: 30px;
+  padding-top: 30px;
 }
