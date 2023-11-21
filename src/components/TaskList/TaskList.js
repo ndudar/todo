@@ -1,6 +1,6 @@
 import TaskCard from "../TaskCard/TaskCard";
 import TaskForm from "../TaskForm";
-import TaskFilter from "../TaskFilter";
+import TaskFilter from "../TaskFilter/TaskFilter";
 import SearchBar from "../SearchBar";
 
 import { Card, Container, Header } from "semantic-ui-react";
