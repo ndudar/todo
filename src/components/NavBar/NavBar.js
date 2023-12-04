@@ -15,6 +15,9 @@ const NavBar = () => {
         <Menu.Item as={Link} to="/logout">
           Logout
         </Menu.Item>
+        <Menu.Item as={Link} to="/profile">
+          Profile
+        </Menu.Item>
       </Menu>
     </div>
   );
