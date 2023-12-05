@@ -2,6 +2,7 @@ import TaskCard from "../TaskCard/TaskCard";
 import TaskForm from "../TaskForm";
 import TaskFilter from "../TaskFilter/TaskFilter";
 import SearchBar from "../SearchBar";
+import Notification from "../Notification/Notification";
 
 import { Card, Container, Header } from "semantic-ui-react";
 
@@ -22,6 +23,8 @@ function TaskList() {
       </div>
       <div className="task-list-sidebar">
         <TaskForm />
+        <Notification content={"this is a success message"} type={"success"} />
+        <Notification content={"this is an error message"} type={"error"} />
       </div>
     </div>
   );

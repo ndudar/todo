@@ -1,0 +1,17 @@
+.notification {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 1em;
+  z-index: 1000;
+}
+
+.success {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+.error {
+  background-color: #f44336; /* Red */
+  color: white;
+}
